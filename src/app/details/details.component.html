@@ -1,0 +1,28 @@
+<div class="p-3">
+    <ul>
+        <li style="list-style: none;">
+            <h3>{{singleUserProfile.login}}</h3>
+
+    <div class="d-flex justify-content-between">
+        <div> <img src="{{singleUserProfile.avatar_url}}" width="80px" alt=""> </div>
+        <div class="d-flex justify-content-between" style="color: #fff;">
+            <div >
+                <p class="btn-repo">{{singleUserProfile.public_repos}} Public Repos</p>
+            </div>
+            <div class="ms-2">
+                <p class="btn-gist">{{singleUserProfile.public_gists}} Public Gists</p>
+            </div>
+            <div class="ms-2">
+                <p class="btn-followers">{{singleUserProfile.followers}} Followers</p>
+            </div>
+            <div class="ms-2">
+                <p class="btn-following">{{singleUserProfile.following}} Following</p>
+            </div>
+        </div>
+    </div>
+    <h4 class="text-end">Username:{{singleUserProfile.name}}</h4>
+        </li>
+    </ul>
+  
+</div>
+
