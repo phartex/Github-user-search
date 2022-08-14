@@ -22,3 +22,16 @@
     padding: 0.2em 0.7em;
     align-items: center;
 }
+
+@media screen and (max-width: 767px){
+    .userProfile-container{
+        display: block !important;
+    }
+    .btn-contaner{
+        display: block !important;
+    }
+    .btn-contaner p{
+        font-size: 1em;
+        margin-top: 1.2em;
+    }
+}

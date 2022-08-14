@@ -1,8 +1,8 @@
-mat-progress-spinner{
+mat-progress-spinner {
     transform: translate(-50%, -50%);
-  }
-  
-  .loader-container{
+}
+
+.loader-container {
     position: absolute;
     height: 100%;
     width: 100%;
@@ -10,26 +10,41 @@ mat-progress-spinner{
     z-index: 99;
     opacity: 0.8;
     margin-top: -8em;
-  }
-a{
+}
+
+a {
     text-decoration: none;
     color: black;
     cursor: pointer;
 }
-.github-container{
+
+.github-container {
     width: 50%;
     margin: 0 auto;
 }
-.user-container{
+
+.user-container {
     margin: 0 auto;
 }
 
-.username{
-margin-left: 6em;
+.username {
+    margin-left: 6em;
 }
 
-.user-container:hover{
-background-color: wheat;
+.user-container:hover {
+    background-color: wheat;
+}
 
-
+@media screen and (max-width: 767px){
+    .github-container {
+        width: 90%;
+    }
+    .search-container{
+        display: block !important;
+        justify-content: center;
+        text-align: center;
+    }
+    .search-container button{
+        margin-top: 0.5em;
+    }
 }
