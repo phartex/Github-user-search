@@ -31,7 +31,7 @@ export class GithubService {
   // }
 
   getUser(user: string): Observable<IGithubResult> {
-    const numbaq = 4;
+   
     let path = `${environment.getGithubListUrl}?q=${user}`;
     return this._http.get<IGithubResult>(path, httpOptions);
   }
